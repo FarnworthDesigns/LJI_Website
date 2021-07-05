@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LJI | Contact Us</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/vxn3tgm.css">
+<link href="js/main-js.js" rel="stylesheet">
+</head>
+<body class="img-3">
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+<nav class="navbar navbar-expand-lg"> <a href="index.html"><img src="images/LJI-SVG-FILE.svg" width="250px" alt="logo icon"></a>
+		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item dropdown">
+                			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               				Menu
+                			</a>
+                			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  			<a class="dropdown-item" href="menu.html">Menu</a>
+                   			<a class="dropdown-item" href="build-a-bowl.html">Build A Bowl</a>
+                			</div>
+             			</li>
+						
+						<li class="nav-item"> <a class="nav-link" href="about-us.html"><strong>About Us</strong></a> </li>
+						<li class="nav-item"> <a class="nav-link" href="contact-us.html"><strong>Contact us</strong></a> </li>
+						<li>
+							<form action="404.html">
+								<button class="order-button" id="breathing-button" type="submit">Order Now!</button>
+							</form>
+						</li>
+						<li class="nav-item"> <a class="nav-link order-mobile" href="404.html"><strong>Order Now</strong></a> </li>
+				</ul>
+		</div>
+</nav>
+<section>
+		<div class="main-container-2">
+				<div class="container container-color">
+						<div class="row">
+								<div class="col col-lg col-md col-sm about-div">
+										<h1 class="text-color bold-text text-center left">For Our Valued Customers</h1>
+										<br>
+				<div id="contact-form">
+                    <form class="form" action="" method="post">
+                    <section>
+                        <p><label>Name:<br>
+                        <input type="text" name="name" size="40"></label></p>
+                        <p><label>Phone:<br>
+                        <input type="text" name="phone" size="40"></label></p>
+                        <p><label>Email:<br>
+                        <input type="text" name="email" size="40"></label></p>
+                    </section>
+                    <section>
+                        <p><label for="contact-method">How would you like us to contact you?</label><br>
+                        <input type="checkbox" name="contact-method" value="phone">Phone
+                        <input type="checkbox" name="contact-method" value="email">Email</p>
+                        <p><label>How would you rate your experience?<br>
+                        <select name="where-help">
+                            <option name="no-choice">Select</option>
+                            <option name="branding">0 - Dissatisfied</option>
+                            <option name="website">1 - Poor</option>
+                            <option name="marketing">2 - Fair</option>
+							<option name="marketing">3 - Good</option>
+							<option name="marketing">4 - Very Good</option>
+							<option name="marketing">5 - Excellent</option>
+                        </select></label></p>
+                        <p><label for="newsletter">Would you like to be on our mailing list?</label><br>
+                        <input type="radio" name="newsletter" value="yes">Yes
+                        <input type="radio" name="newsletter" value="no" checked>No
+                        </p>
+                    </section>
+                        <p><label>Additional information about your request<br>
+                        <textarea rows="5" cols="42" placeholder="Please indicate how we can help..."></textarea>
+                        </label></p>
+                        <input type="submit" name="submit" class="request-button" value="Send Your Request">
+                    </form>
+				</div>
+								</div>
+						</div>
+				</div>
+		</div>
+
+</section>
+<section>
+		<div class="main-container-footer">
+				<div class="container">
+						<div class="row">
+								<div class="col text-center footer-style">
+										<h1 class="footer-text bold-text-3">#YouPickItWeJerkIt</h1>
+								</div>
+						</div>
+				</div>
+		</div>
+</section>
+<section>
+		<div class="container-footer">
+				<div class="container ">
+						<div class="row">
+								<div class="col"> 
+									<h6><strong class="padding-right">Lets Jerk It &copy; 2020 All Rights Reserved</strong> 
+										<a href="404.html"><img class="social-media-icon" src="images/iconfinder_38-instagram_1161954.svg" alt="instagram icon"></a>
+										<a href="404.html"><img class="social-media-icon" src="images/iconfinder_Facebook_4923062.svg" alt="facebook icon"></a>
+										<a href="404.html"><img class="social-media-icon" src="images/iconfinder_linkedin_834713.svg" alt="linkedin icon"></a>
+										<a href="404.html"><img class="social-media-icon" src="images/iconfinder_twitter_834708.svg" alt="twitter icon"></a>
+									</h6>
+								</div>
+						</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4 offset-4">
+							<hr>
+							<p class="text-center">Developed by Delvechio Design</p>
+						</div>
+					</div>	
+				</div>
+		</div>
+</section>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
+

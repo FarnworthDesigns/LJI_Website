@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LJI | Home</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/vxn3tgm.css">
+<link href="js/main-js.js" rel="stylesheet">
+</head>
+<body class="img">
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+<nav class="navbar navbar-expand-lg"> <a href="index.html"><img src="images/LJI-SVG-FILE.svg" width="250px" alt="logo icon"></a>
+		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item dropdown">
+                			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               				Menu
+                			</a>
+                			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  			<a class="dropdown-item" href="menu.html">Menu</a>
+                   			<a class="dropdown-item" href="build-a-bowl.html">Build A Bowl</a>
+                			</div>
+             			</li>
+						
+						<li class="nav-item"> <a class="nav-link" href="about-us.html"><strong>About Us</strong></a> </li>
+						<li class="nav-item"> <a class="nav-link" href="contact-us.html"><strong>Contact us</strong></a> </li>
+						<li>
+							<form action="404.html">
+								<button class="order-button" id="breathing-button" type="submit">Order Now!</button>
+							</form>
+						</li>
+						<li class="nav-item"> <a class="nav-link order-mobile" href="404.html"><strong>Order Now</strong></a> </li>
+				</ul>
+		</div>
+</nav>
+<section>
+		<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6 offset-3 pick-jerk"> <img class="horizontal-jerk" src="images/pick-jerk-mobile.svg" alt="you pick it we jerk it"> </div>
+		</div>
+		<div class="row">
+				<div class="col"> <img class="center down-arrow" src="images/down-arrow-01.svg" width="100px" alt="scroll down"> </div>
+		</div>
+</section>
+<section>
+		<div class="main-container">
+				<div class="container container-color">
+						<div class="row">
+								<div class="col-8 col-lg-8 col-md-8 col-sm-8 about-div">
+										<h1 class="text-color bold-text">About Us</h1>
+										<br>
+										<h5 class="text-color">At all our 'Lets Jerk It' locations, we use our own unique combination spices in all of our meals to create an authentic Jamaican flavour. What makes the experience worthwhile? We serve up the best Jamaica has to offer with a culturally inspired menu. Our own special BBQ, Jerk and Yabbas have all the goodness that makes Maroon cooking delicious and exciting. </h5>
+										<form action="about-us.html">
+												<button class="center about-button" type="submit">About Us</button>
+										</form>
+								</div>
+								<div> 
+									<img src="images/yabbas_corn_fish.jpg" class="image-center about-image-div" alt="jamaican food" width="350px"> 
+								</div>
+						</div>
+				</div>
+		</div>
+</section>
+			<section>
+		<div class="main-container-menu">
+				<div class="container">
+						<div class="row menu-row">
+								<div class="col menu-styles">
+										<h1 class="text-center bold-text">Specials</h1>
+										<br>
+										<table>
+											<tr>
+												<th class="margin-left menu-item-index">
+													Brown Stew Fish................ <strong style="color: #CD2A2A">$13.50</strong>
+												</th>
+												<th class="margin-left menu-item-index">
+													Ackee &amp; Saltfish................ <strong style="color: #CD2A2A">$15.95</strong>
+												</th>
+											</tr>
+											<tr>
+												<th class="margin-left pad-top menu-item-index">
+													Jerk Chicken Quarters......... <strong style="color: #CD2A2A">$8.25</strong>
+												</th>
+												<th class="margin-left pad-top menu-item-index">
+													Ital Stew.......................... <strong style="color: #CD2A2A">$15.95</strong>
+												</th>
+											</tr>
+										</table>
+										<form action="menu.html">
+												<button class="center menu-button" type="submit">Full Menu</button>
+										</form>
+								</div>
+							
+						</div>
+				</div>
+		</div>
+</section>
+			<section>
+			<div class="main-container-tab">
+				<div class="container">
+						<div class="row menu-row tab-styles">
+								<div class="col-lg-8 ">
+										<h1 class="text-center padding-text-tab bold-text">#YouPickItWeJerkIt</h1>
+								</div>
+							<div class="col-4"><img src="images/eat-good-live-good.jpg" class="image-center hash-image" width="300px" alt="jamaican food"></div>
+						</div>
+				</div>
+		</div>
+			</section>
+			<section> 
+				<div class="main-container-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col text-center footer-style">
+								<h1 class="footer-text bold-text">Get In Touch</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<form action="contact-us.html">
+									<button class="center menu-button">Stay Connected</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
